@@ -1,0 +1,484 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-radius;
+}
+
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+
+.paragraph{
+font-family:'Libre Caslon Text', serif;
+font-size: 19px;
+margin-left: 25px;
+margin-right: 25px;
+margin: 30px;
+}
+
+.camera{
+  height: 90px;
+  width: 100px;
+  /* object-fit: cover; */
+}
+
+.mainHeader{
+font-size: 60px;
+font-family: 'Libre Caslon Text', serif;
+color: white;
+}
+
+.headerContainer{
+  display:flex;
+  justify-content:center;
+  background-color: black;
+  padding: 40px;
+}
+
+.navbar{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  border: 2px solid black;
+  background: black;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  left:0;
+  right:0;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+}
+
+.backgroundMap{
+  height: 600px;
+  weight: 600px;
+  object-fit: cover;
+  border: 7px solid #153B34;
+}
+
+.background{
+  display: flex;
+  justify-content: center;
+}
+
+html, body{
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav-bar-area{
+  width: 100%;
+  height: 60px;
+  background-color: #000;
+  padding: 0;
+  margin:0 auto;
+  position:relative;
+
+}
+
+ul{
+  margin: 0 auto;
+  padding: 0;
+  width: 600px;
+  height: 60px;
+}
+
+ul li{
+  display:inline;
+  float:left;
+  padding: 10px 10px 10px 8px;
+  margin: 0 3% 0 0;
+  color: #fff;
+  cursor:pointer;
+  line-height: 225%;
+}
+
+li:hover{
+  background-color: #888888;
+}
+
+.menu{
+display:none;
+color:#fff;
+font-weight:bold;
+}
+
+#text{
+float:left;
+}
+
+ #image{
+ float:right;
+ cursor:pointer;
+ }
+
+.backbay{
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 15px;
+  color:#BFD5E2;
+  background-color: black;
+  text-decoration: underline;
+}
+
+.southend{
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 15px;
+  color:#BFD5E2;
+  background-color: black;
+  text-decoration: underline;
+}
+
+.bio-title{
+  font-size: 20px;
+  font-family: 'Libre Caslon Text', serif;
+}
+
+.bhImages{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.bhHeader{
+  font-size: 60px;
+  font-family: 'Libre Caslon Text', serif;
+  color: white;
+}
+
+.bhhContainer{
+    display:flex;
+    justify-content:center;
+    background-color: black;
+    padding: 40px;
+}
+
+.sehContainer{
+  display:flex;
+  justify-content:center;
+  background-color: black;
+  padding: 40px;
+}
+
+.seHeader{
+  font-size: 60px;
+  font-family: 'Libre Caslon Text', serif;
+  color: white;
+}
+
+.acornContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.bbhContainer{
+  display:flex;
+  justify-content:center;
+  background-color: black;
+  padding: 40px;
+}
+
+.bbHeader{
+  font-size: 60px;
+  font-family: 'Libre Caslon Text', serif;
+  color: white;
+}
+/* fenway */
+.fhContainer{
+  display:flex;
+  justify-content:center;
+  background-color: black;
+  padding: 40px;
+}
+
+.fHeader{
+  font-size: 60px;
+  font-family: 'Libre Caslon Text', serif;
+  color: white;
+}
+
+.fenwayimages {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 500px;
+  object-fit: cover;
+}
+
+.fp {
+  display: flex;
+justify-content: center;
+}
+
+#fp1 {
+  height: ;
+  width: ;
+}
+
+#fp2 {
+  height: ;
+  width: ;
+}
+#fp3 {
+  height: ;
+  width: ;
+}
+
+.auhContainer{
+  display:flex;
+  justify-content:center;
+  background-color: black;
+  padding: 40px;
+}
+
+.auHeader{
+  font-size: 60px;
+  font-family: 'Libre Caslon Text', serif;
+  color: white;
+}
+
+.acornStreet{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.gardens{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.trinity{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.backgroundMap{
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+.southpush-pin{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+}
+
+.beacon-pin{
+  position: absolute;
+  top: 30%;
+  left: 70%;
+}
+.backbay-pin{
+  position: absolute;
+  top: 50%;
+  left: 60%;
+}
+.fenway-pin{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
+.emelipic{
+height: 300px;
+width: auto;
+    margin: 10px;
+}
+
+.marypic{
+height: 300px;
+width: auto;
+  margin: 10px;
+}
+.abbypic{
+height: 300px;
+width: auto;
+  display: flex;
+  order: 2;
+   margin: 10px;
+}
+.janepic{
+height: 300px;
+width: auto;
+  display:flex;
+  order: 2;
+  margin: 10px;
+
+}
+.emeli{
+  width: 100%;
+  height: 300px;
+  display:flex;
+  flex-direction: row;
+    margin: 15px;
+}
+.emtext{
+  display: flex;
+  flex-direction: column;
+    padding: 20px;
+}
+.jane{
+  width: 100%;
+  height: 300px;
+  display:flex;
+  flex-direction: row;
+    margin: 15px;
+}
+.jtext{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.mary{
+  width: 100%;
+  height: 300px;
+  display:flex;
+  flex-direction: row;
+    margin: 15px;
+}
+.mtext{
+  display: flex;
+  flex-direction: column;
+    padding: 20px;
+}
+.abby{
+  width: 100%;
+  height: 300px;
+  display:flex;
+  flex-direction: row;
+  margin: 15px;
+}
+.atext{
+  display: flex;
+  flex-direction: column;
+    padding: 20px;
+}
+.bio-title{
+    font-family: 'Libre Caslon Text', serif;
+  font-size: 30px;
+}
+.bio{
+    font-family: 'Libre Caslon Text', serif;
+  font-size: 20px;
+}
+.arnoldArb{
+  height: 200px;
+}
+
+.acornLink{
+  display: flex;
+  justify-content: center;
+  font-family: 'Muli', sans-serif;
+  color: black;
+}
+
+.trinityLink{
+  display: flex;
+  justify-content: center;
+  font-family: 'Muli', sans-serif;
+  color: black;
+}
+
+.gardensLink{
+  display: flex;
+  justify-content: center;
+  font-family: 'Muli', sans-serif;
+  color: black;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  width:40%;
+  height: 20px;
+}
+
+.locaimg{
+  width: 300px;
+  height:300px;
+  object-fit: cover;
+  margin: 10px 20px 10px;
+  background: cornsilk;
+  border:2px solid navajowhite;
+  padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 60px;
+
+}
+
+/* .location{
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content:space-around;
+   align-content: space-around;
+ } */
+
+
+.oldSouthChurch{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+
+}
+ .region{
+   display: flex;
+   flex-direction: row;
+   justify-content:space-around;
+   align-content: space-around;
+ }
+.bpl{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.fenwaydiv{
+flex: display;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+}
+
+ /* .acornLink{
+/* background-color: black;
+color: white;
+ } */
