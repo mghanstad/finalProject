@@ -300,25 +300,25 @@ justify-content: center;
   left: 30%;
 }
 .emelipic{
-height: 300px;
+height: 350px;
 width: auto;
     margin: 10px;
 }
 
 .marypic{
-height: 300px;
+height: 350px;
 width: auto;
   margin: 10px;
 }
 .abbypic{
-height: 300px;
+height: 350px;
 width: auto;
   display: flex;
   order: 2;
    margin: 10px;
 }
 .janepic{
-height: 300px;
+height: 350px;
 width: auto;
   display:flex;
   order: 2;
@@ -327,7 +327,7 @@ width: auto;
 }
 .emeli{
   width: 100%;
-  height: 300px;
+  height: 350px;
   display:flex;
   flex-direction: row;
     margin: 15px;
@@ -339,7 +339,7 @@ width: auto;
 }
 .jane{
   width: 100%;
-  height: 300px;
+  height: 350px;
   display:flex;
   flex-direction: row;
     margin: 15px;
@@ -351,7 +351,7 @@ width: auto;
 }
 .mary{
   width: 100%;
-  height: 300px;
+  height: 350px;
   display:flex;
   flex-direction: row;
     margin: 15px;
@@ -363,7 +363,7 @@ width: auto;
 }
 .abby{
   width: 100%;
-  height: 300px;
+  height: 350px;
   display:flex;
   flex-direction: row;
   margin: 15px;
@@ -385,27 +385,12 @@ width: auto;
   height: 200px;
 }
 
-.acornLink{
+.blackLink{
   display: flex;
   justify-content: center;
   font-family: 'Muli', sans-serif;
   color: black;
 }
-
-.trinityLink{
-  display: flex;
-  justify-content: center;
-  font-family: 'Muli', sans-serif;
-  color: black;
-}
-
-.gardensLink{
-  display: flex;
-  justify-content: center;
-  font-family: 'Muli', sans-serif;
-  color: black;
-}
-
 
 .column {
   float: left;
@@ -437,18 +422,16 @@ width: auto;
 padding-left: 10px;
 padding-right: 10px;
 padding-bottom: 60px;
-
 }
 
-/* .location{
-   width: 200px;
-   height: 200px;
-   object-fit: cover;
-   display: flex;
+.location{
+   /* width: 200px;
+   height: 200px; */
+  display: flex;
    flex-direction: column;
-   justify-content:space-around;
+   /* justify-content:space-around; */
    align-content: space-around;
- } */
+ }
 
 
 .oldSouthChurch{
@@ -462,7 +445,8 @@ padding-bottom: 60px;
    display: flex;
    flex-direction: row;
    justify-content:space-around;
-   align-content: space-around;
+   margin: auto;
+   /* align-content: space-around; */
  }
 .bpl{
   display: flex;
